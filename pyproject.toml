@@ -1,0 +1,36 @@
+[project]
+name = "gensynthpop"
+version = "2.0.0"
+description = "A sample-free tool to construct Synthetic Populations and Households from mixed-aggregation contingency tables."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = [
+    { name = "Jan de Mooij", email = "A.J.deMooij@uu.nl" },
+    { name = "Tabea Sonnenschein", email = "t.s.sonnenschein@uu.nl" },
+    { name = "Marco Pellegrino" },
+    { name = "Mehdi Dastani" },
+    { name = "Dick Ettema" },
+    { name = "Brian Logan" },
+    { name = "Judith A. Verstegen" },
+]
+dependencies = [
+    "pandas >= 2.0.0,<3.0.0",
+    "scipy >=1.0.0",
+    "tabulate",
+    "jinja2",
+    "ipfn @ git+https://github.com/AJdeMooij/ipfn@bugfix/pandas-sort-frames",
+]
+
+[project.urls]
+Paper = "https://www.researchsquare.com/article/rs-3405645/v1"
+Repository = "https://github.com/A-Practical-Agent-Programming-Language/GenSynthPop-Python"
+
+
+[tool.setuptools.packages.find]
+include = ['gensynthpop', 'gensynthpop.*']
+
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]

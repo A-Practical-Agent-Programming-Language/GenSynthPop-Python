@@ -1,0 +1,64 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  GenSynthPop-Python: Generating a Spatially Explicit Synthetic
+  Population of Agents and Households from Aggregated Data
+message: >-
+  If you use this software please cite as below
+type: software
+authors:
+  - given-names: Jan
+    family-names: Mooij
+    email: A.J.deMooij@uu.nl
+    affiliation: >-
+      Intelligent Systems, Information and Computing
+      Sciences, Utrecht University, Princetonplein 5,
+      Utrecht, 3584 CC, The Netherlands
+    orcid: 'https://orcid.org/0000-0003-4129-6074'
+    name-particle: de
+  - given-names: Tabea
+    family-names: Sonnenschein
+    email: T.S.Sonnenschein@uu.nl
+    affiliation: >-
+      Department of Human Geography and Spatial Planning,
+      Utrecht University, Heidelberglaan 8, Utrecht, 3584
+      CS, The Netherlands
+    orcid: 'https://orcid.org/0000-0001-6592-9548'
+  - family-names: Pellegrino
+    given-names: Marco
+  - given-names: Dastani
+    family-names: Mehdi
+    affiliation: >-
+      Intelligent Systems, Information and Computing
+      Sciences, Utrecht University, Princetonplein 5,
+      Utrecht, 3584 CC, The Netherlands
+  - given-names: Dick
+    family-names: Ettema
+    affiliation: >-
+      Department of Human Geography and Spatial Planning,
+      Utrecht University, Heidelberglaan 8, Utrecht, 3584
+      CS, The Netherlands
+  - orcid: 'https://orcid.org/0000-0003-0648-7107'
+    given-names: Brian
+    family-names: Logan
+    affiliation: >-
+      Intelligent Systems, Information and Computing
+      Sciences, Utrecht University, Princetonplein 5,
+      Utrecht, 3584 CC, The Netherlands
+  - given-names: Judith A.
+    family-names: Verstegen
+    affiliation: >-
+      Department of Human Geography and Spatial Planning,
+      Utrecht University, Heidelberglaan 8, Utrecht, 3584
+      CS, The Netherlands
+    orcid: 'https://orcid.org/0000-0002-9082-4323'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11474110
+repository-code: >-
+  https://github.com/A-Practical-Agent-Programming-Language/GenSynthPop-Python
+repository: >-
+  https://github.com/A-Practical-Agent-Programming-Language/Synthetic-Population-The-Hague-South-West
+license: GPL-3.0

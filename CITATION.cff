@@ -10,14 +10,13 @@ message: >-
 type: software
 authors:
   - given-names: Jan
-    family-names: Mooij
+    family-names: de Mooij
     email: A.J.deMooij@uu.nl
     affiliation: >-
       Intelligent Systems, Information and Computing
       Sciences, Utrecht University, Princetonplein 5,
       Utrecht, 3584 CC, The Netherlands
     orcid: 'https://orcid.org/0000-0003-4129-6074'
-    name-particle: de
   - given-names: Tabea
     family-names: Sonnenschein
     email: T.S.Sonnenschein@uu.nl

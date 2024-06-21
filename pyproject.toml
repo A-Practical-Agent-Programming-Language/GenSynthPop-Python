@@ -20,6 +20,11 @@ dependencies = [
     "jinja2",
     "ipfn @ git+https://github.com/AJdeMooij/ipfn@bugfix/pandas-sort-frames",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
 
 [project.urls]
 Paper = "https://www.researchsquare.com/article/rs-3405645/v1"
@@ -29,8 +34,3 @@ Repository = "https://github.com/A-Practical-Agent-Programming-Language/GenSynth
 [tool.setuptools.packages.find]
 include = ['gensynthpop', 'gensynthpop.*']
 
-classifiers = [
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-]

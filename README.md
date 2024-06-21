@@ -46,6 +46,18 @@ In the reference implementation, the highest spatial resolution data was availab
 that example will be maintained here. If only one level of spatial resolution is available, this library provides
 less utility, but a column with a single value can be added to the source data to still use this library.
 
+To install this package, call
+
+```bash
+pip install gensynthpop @ git+https://github.com/A-Practical-Agent-Programming-Language/GenSynthPop-Python
+```
+
+Or add the following line to your projects `requirement.txt`:
+
+```
+gensynthpop @ git+https://github.com/A-Practical-Agent-Programming-Language/GenSynthPop-Python
+```
+
 ## Generate individuals
 
 Start by instantiating a data frame with agent IDs located in each of the neighborhoods:

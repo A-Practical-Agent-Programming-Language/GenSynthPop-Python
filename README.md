@@ -1,5 +1,6 @@
 [![DOI](https://zenodo.org/badge/810318631.svg)](https://zenodo.org/doi/10.5281/zenodo.11474109)
-
+![GitHub](https://img.shields.io/github/license/A-Practical-Agent-Programming-Language/Sim-2APL)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/A-Practical-Agent-Programming-Language/GenSynthPop-Python)
 # GenSynthPop
 
 This repository contains the implementation of GenSynthPop,
